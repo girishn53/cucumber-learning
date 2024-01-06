@@ -13,7 +13,7 @@ public class StepDefs {
 	@Given("^I login to website$")
 	public void i_login_to_website() throws Throwable {
 		
-		System.out.println("");
+		System.out.println("Logged to in to website girish.com");
 	   
 	}
 

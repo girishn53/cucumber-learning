@@ -11,11 +11,9 @@ import cucumber.api.CucumberOptions;
 
 		glue = { "stepdefinitions"},
 
-		tags = { "@gk" },
+		tags = { "@first" },
 		
 		plugin = {"pretty", "json:target/cucumber.json" },
-				
-		
 		
 		monochrome = true
 

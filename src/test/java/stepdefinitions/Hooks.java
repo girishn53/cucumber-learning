@@ -6,19 +6,18 @@ import cucumber.api.java.Before;
 
 public class Hooks {
 
-	@Before
+@Before
+public void start() {
 
-	public void start() {
-
-		System.out.println("I will execute before every scenario");
+		System.out.println("I will execute before every scenario---BeforeHook");
 	}
 
-	@After
-
-	public void stop() {
-
-		System.out.println("I will execute after every scenario in prod");
+@After
+public void stop() {
+		System.out.println("I will execute after every scenario in prod--AfterHook");
 	}
+	
+	
 //	
 //	@Before("@Prod")
 //

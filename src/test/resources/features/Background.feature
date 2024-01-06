@@ -1,14 +1,18 @@
-@gk
+@gk1
 Feature: This file is used to check background feature
 
 
-BackGround:
-Given I login to website 
+Background:
+Given I login to website
 
 Scenario: Check the background feature
 
 And user clicks ok
 
+
+Scenario: Check the background feature2
+
+And user clicks ok
 
  
 
