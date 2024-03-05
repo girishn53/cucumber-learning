@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 
 		glue = { "stepdefinitions"},
 
-		tags = { "@first" },
+		tags = { "@third" },
 		
 		plugin = {"pretty", "json:target/cucumber.json" },
 		

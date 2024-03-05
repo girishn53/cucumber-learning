@@ -18,6 +18,18 @@ public class Steps {
 		System.out.println("Hi!! second scenario"); 
 	}
 	
+	
+	@Given("^user launches the third application$")
+	public void user_launches_the_third_application() throws Throwable {
+	   
+		System.out.println("Hi!! third scenario");
+		
+	}
+	
+	
+	
+	
+	
 	@Given("^user clicks ok$")
 	public void user_clicks_ok() throws Throwable {
 	   System.out.println("Executed after background ");

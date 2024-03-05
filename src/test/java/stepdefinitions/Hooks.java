@@ -18,19 +18,19 @@ public void stop() {
 	}
 	
 	
-//	
-//	@Before("@Prod")
-//
-//	public void starting() {
-//
-//		System.out.println("I will execute before every scenario in prod");
-//	}
-//
-//	@After("@Prod")
-//
-//	public void stopping() {
-//
-//		System.out.println("I will execute after every scenario");
-//	}
+	
+	@Before("@third3")
+
+	public void starting() {
+
+		System.out.println("I will execute only before third scenario");
+	}
+
+	@After("@third3")
+
+	public void stopping() {
+
+		System.out.println("I will execute only after third scenario");
+	}
 
 }

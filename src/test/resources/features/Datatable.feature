@@ -1,3 +1,6 @@
+#Datatable is used to parameterize one step and we can convert table into List<Map<String,String>>
+
+
 @third
 Feature: This file is showing concept of datatables
 

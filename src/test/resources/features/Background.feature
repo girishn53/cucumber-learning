@@ -1,3 +1,5 @@
+#Background runs before each scenario 
+
 @gk1
 Feature: This file is used to check background feature
 
